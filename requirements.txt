@@ -1,4 +1,14 @@
+# 核心依赖（锁定稳定版本，避免编译问题）
 streamlit==1.32.2
 pandas==2.2.1
 numpy==1.26.4
-plotly==5.20.0
+# Excel读写（避免源码编译）
+openpyxl==3.1.2
+xlrd==2.0.1
+# 数据可视化
+plotly==5.22.0
+matplotlib==3.8.4
+# Pillow（指定预编译版本，避免源码编译）
+Pillow==10.2.0
+# 其他工具
+python-dotenv==1.0.1
