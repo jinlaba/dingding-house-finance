@@ -787,7 +787,7 @@ function initTabs(){
 }
 function init(){
   $('#genInfo').innerHTML='数据范围<br>'+(M0.months?('2025-01 ~ '+M0.months[M0.months.length-1]):'')+'<br>v9 模块化版';
-  $('#foot').innerHTML='顶鼎运营驾驶舱 v9 模块化版 ｜ 数据来源：PostgreSQL「顶鼎」库视图 ｜ 仅供内部经营分析参考';
+  $('#foot').innerHTML='顶鼎运营驾驶舱 v9 模块化版 ｜ 胡天祥编制 ｜ 数据来源：PostgreSQL「顶鼎」库视图 ｜ 仅供内部经营分析参考';
   initFilters();initTabs();initFinTabs();rerender();
 }
 window.addEventListener('resize',()=>Object.values(charts).forEach(c=>c.resize()));
